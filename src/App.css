@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*React Color*/
+  /* background-color: #282c34; */
+  /* RickMorty API color */
+  background: rgb(36, 40, 47);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

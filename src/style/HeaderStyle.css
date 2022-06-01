@@ -1,0 +1,42 @@
+@font-face {
+  font-family: get_schwifty;
+  src: url(../assets/font/get_schwifty_font.ttf);
+}
+
+.headerApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 35vh;
+  width: 100%;
+  background-image: url('../assets/images/portal_buttom.jpg');
+  background-position-y: 78%;
+  background-position-x: center;
+}
+
+.headerImg {
+  max-height: 30vh;
+  max-width: 60vw;
+}
+
+.App-Title {
+  font-family: get_schwifty;
+  font-size: 7.5rem;
+  -webkit-text-fill-color: #11c0cc;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #07c31d;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.App-Title:hover {
+
+  cursor: default;
+}
+
+/* Colores rick and morty */
+/* azul: 11c0cc
+contornos: 072c2d y 00000
+sombra: 07c31d */

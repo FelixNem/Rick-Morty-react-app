@@ -1,0 +1,56 @@
+
+.residentCard {
+  display: flex;
+  margin: 15px;
+  font-size: 1.5rem;
+  background-color: rgb(60, 62, 68);
+  width: 47%;
+}
+
+.residentCardImg img {
+  max-width: 250px;
+  height: 100%;
+}
+
+.residentCardInfo {
+  padding: 3px 15px;
+}
+
+.dataCharacter {
+  margin-bottom: 8px;
+  max-height: 100px;
+}
+
+.labelInfo {
+  font-size: 1.2rem;
+  color: rgb(158, 158, 158);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.statusRow {
+  display: flex;
+  align-items: baseline;
+}
+
+.circleStatus {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.circleDead {
+  background-color: #B20600;
+}
+
+.circleAlive {
+  background-color: rgb(85, 204, 68);
+}
+
+.circleUnknow {
+  background-color: #73777B;
+}

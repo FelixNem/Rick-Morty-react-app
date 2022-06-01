@@ -1,0 +1,39 @@
+
+.searchBoxStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 23PX;
+  width: 75%;
+}
+
+
+.searchBtn {
+  border: none;
+  background: none;
+  margin-left: 7px;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+}
+
+.searchBtn svg {
+  width: 100%;
+  height: 100%;
+  color: #07c31d;;
+}
+
+.inputStyle {
+  width: 80%;
+  height: 28px;
+  padding: 18px 10px;
+  border-radius: 10px;
+  color: #11c0cc;
+  background-color: #282c34;
+  font-size: 1.3rem;
+}
+
+.inputStyle:focus {
+  outline: none;
+}
